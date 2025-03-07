@@ -23,13 +23,9 @@
 }
 
 body {
-    height: 100vh;
+    font-family: var(--fuente-montserrat);
+    min-height: 100vh;
     box-sizing: border-box;
-    /*background-color: var(--color-1);*/
-    background-image: url(assets/fondo.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: var(--color-2);
 }
 
 .header {
@@ -116,6 +112,10 @@ body {
         display: initial;
     }
 
+    .header {
+        padding: 20px 10%;
+    }
+
     .header .navigation {
         position: absolute;
         top: 100%;
@@ -161,21 +161,23 @@ body {
     .pagina-contenido {
         width: auto;
     }
-}
 
-/*.hero {
-    min-height: 100vh;
-    background-image: url(assets/fondo.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}*/
+    .footer {
+        padding: 20px 10%;
+        width: 100vh;
+    }
+}
 
 .pagina {
     padding: 6% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    min-width: 100vh;
+    background-image: url(assets/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .pagina-contenido {
