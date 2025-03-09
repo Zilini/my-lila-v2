@@ -40,6 +40,12 @@ body {
     z-index: 1000;
 }
 
+.logo {
+    padding: 0 10%;
+    width: 280px;
+    height: 75px;
+}
+
 .navigation ul {
     list-style: none;
 }
